@@ -53,6 +53,16 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
 /*=================================
    Theme Based
 ==================================*/
+
+.posi .slideing{
+  background-color: #34A853;
+}
+
+
+.posi .slideing:hover{
+  background-color: #f88a0c;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap");
 /* Mixins */
 /* Variables */
@@ -76,7 +86,7 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   background-size: cover;
   /* background-position: center; */
   position: inherit;
-  animation: section-first 30s ease-in-out infinite both; 
+  animation: section-first 8s ease-in-out infinite both; 
 }
 
 .divp{
@@ -101,27 +111,28 @@ Tag:  bidding, fiverr, freelance marketplace, freelancers, freelancing, gigs, hi
   0%{
     background-image: url('../images/background/Happy-businesswoman-working.jpg');
   }
-  30%{
+  /* 25%{
     background-image: url('../images/background/lady.jpg');
     
-  }
-  50%{
+  } */
+  100%{
     background-image: url('../images/about/girlcall.jpg');
     
   }
-  70%{
-    background-image: url('../images/background/menlaptop.jpg');
-  }
-  
-  90%{
+  /* 75%{
+    background-image: url('../images/about/yellowscarf.jpg');
+  }  */
+  /* 90%{
     
     background-image: url('../images/about/girllaptop.jpg');
-  }
-  100%{
-    background-image: url('../images/about/yellowscarf.jpg');
-  }
+  } */
+  /* 100%{
+    background-image: url('../images/background/menlaptop.jpg');
+  } */
 
 }
+
+/* Animation d'aron */
 
 .solid{
   width: 100%;
