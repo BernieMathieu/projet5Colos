@@ -43,25 +43,183 @@
 
 </head>
 <body class="maxw1700 mx-auto">
-<div class="wrapper ovh">
-  <div class="preloader"></div>
-  
-  <!-- Main Header Nav -->
-  <header class="header-nav nav-innerpage-style stricky main-menu at-home3 bdrb1">
+  <div class="wrapper ovh">
+    <div class="preloader"></div>
+    
+    <!-- Main Header Nav -->
+    <header class="header-nav nav-homepage-style stricky main-menu">
+      <!-- Ace Responsive Menu -->
+      <nav class="posr"> 
+        <div class="container-fluid posr menu_bdrt1 px30">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-auto px-0">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="logos br-white-light pr30 pr5-xl">
+                  <a class="header-logo logo1" href="index.html"><h3 style="color:rgb(255, 255, 255);"><strong>5Colos</strong></h3></a>
+                  <a class="header-logo logo2" href="index.html"><h3 style="color:green;"><strong>5Colos</strong></h3></a>
+                </div></div>
+              </div>
+              <div class="col-auto px-0">
+                <div class="d-flex align-items-center">
+                  <!-- Responsive Menu Structure-->
+                  <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                    <li class="visible_list"> <a class="list-item" href="page-dashboard-client.html"><span class="title">Dashboard</span></a>
+                    </li>
+                    <li class="visible_list"> <a class="list-item" href="page-service-all.html"><span class="title">Catégorie de services</span></a>
+                      <ul >
+                        <li> <a href="page-service-v6.html"><span class="title"><span class="menu-icn flaticon-developer"></span> <span class="menu-title">Développement web</span></span></a>
+                          <ul>
+                            <li><a href="page-service-single.html">Front-end</a></li>
+                            <li><a href="page-service-single.html">Back-end</a></li>
+                            <li><a href="page-service-single.html">Site statique</a></li>
+                            <li><a href="page-service-single.html">Site dynamique</a></li>
+                          </ul>
+                        </li>
+                        <li> <a href="page-service-v6.html"><span class="title"><span class="menu-icn flaticon-web-design-1"></span> <span class="menu-title">Infographie</span></span></a>
+                          <ul>
+                            <li><a href="page-service-single.html">Création de logo</a></li>
+                            <li><a href="page-service-single.html">Conception de dépliants et affiches</a></li>
+                            <li><a href="page-service-single.html">Conception de CV</a></li>
+                            <li><a href="page-service-single.html">Cartes de visite</a></li>
+                          </ul>
+                        </li>
+                        <li> <a href="page-service-v6.html"><span class="title"><span class="menu-icn flaticon-digital-marketing"></span> <span class="menu-title">Médias Sociaux</span></span></a>
+                          <ul>
+                            <li><a href="page-service-single.html">Gestion des réseaux sociaux</a></li>
+                            <li><a href="page-service-single.html">Community Manager</a></li>
+                            <li><a href="page-service-single.html">Content Manager</a></li>
+                            <li><a href="page-service-single.html">Consultant média sociaux</a></li>
+                          </ul>
+                        </li>
+                        <li> <a href="page-service-v6.html"><span class="title"><span class="menu-icn flaticon-microphone"></span> <span class="menu-title">Audio Visuel</span></span></a>
+                          <ul>
+                            <li><a href="page-service-single.html">Réalisateur</a></li>
+                            <li><a href="page-service-single.html">Montage audiovisuel</a></li>
+                            <li><a href="page-service-single.html">Ingénieur du son</a></li>
+                            <li><a href="page-service-single.html">Directeur de la photographie</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- <li><a href="#"><span>Blog</span></a> -->
+                    <li> <a class="list-item" href="page-contact.html">Contact</a></li>
+                    <li><a class="login-info mr15-lg mr30" href="#"><span class="title">Se deconnecter</span></a>
+                      <!-- <ul>
+                        <li><a href="page-login-freelancer.html">En tant que freelancer</a></li>
+                        <li><a href="page-login-client.html">En tant que entreprise</a></li>
+                      </ul> -->
+                    </li>
+                  </ul><a class="ud-btn btn-white add-joining" href="index.html#cat">Poster offre</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Search Modal -->
+      <div class="search-modal">
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-xmark"></i></button>
+              </div>
+              <div class="modal-body">
+                <div class="popup-search-field search_area">
+                  <input type="text" class="form-control border-0" placeholder="Quel service recherchez-vous aujourd'hui?">
+                  <label><span class="far fa-magnifying-glass"></span></label>
+                  <button class="ud-btn btn-thm" type="submit">Recherche</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hiddenbar-body-ovelay"></div>
+    
+      <!-- Mobile Nav  -->
+      <div id="page" class="mobilie_header_nav stylehome1">
+        <div class="mobile-menu">
+          <div class="header bb-white-light">
+            <div class="menu_and_widgets">
+              <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
+                <a class="mobile_logo" href="index.html"><h3 style="color:white;"><strong>5Colos</strong></h3></a>
+                <div class="right-side text-end">
+                  <a class="text-white" href="choix_Aron.html">S'inscrire</a>
+                  <a class="menubar ml30" href="#menu"><img src="images/white-nav-icon.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
+          </div>
+        </div>
+        <!-- /.mobile-menu -->
+        <nav id="menu" class="">
+          <ul>
+            <li><span>Accueil</span>
+            </li>
+            <li><a href="page-service-all.html"><span>Catégories des services</span></a>
+              <ul>
+                <li><a href="page-service-v6.html"><span class="title"></span><span>Développement Web</span>
+                  <ul>
+                    <li><a href="page-service-single.html">Front-end</a></li>
+                    <li><a href="page-service-single.html">Back-end</a></li>
+                    <li><a href="page-service-single.html">Site statique</a></li>
+                    <li><a href="page-service-single.html">Site dynamique</a></li>
+                  </ul>
+                </li>
+                <li><a href="page-service-v6.html"><span class="title"></span><span>Infographie</span>
+                  <ul>
+                    <li><a href="page-service-single.html">Création de logo</a></li>
+                    <li><a href="page-service-single.html">Conception de dépliants et affiches</a></li>
+                    <li><a href="page-service-single.html">Conception de CV</a></li>
+                    <li><a href="page-service-single.html">Cartes de visite</a></li>
+                  </ul>
+                </li>
+                <li><a href="page-service-v6.html"><span class="title"></span><span>Média Sociaux</span>
+                  <ul>
+                    <li><a href="page-service-single.html">Gestion des réseaux sociaux</a></li>
+                    <li><a href="page-service-single.html">Community Manager</a></li>
+                    <li><a href="page-service-single.html">Content Manager</a></li>
+                    <li><a href="page-service-single.html">Consultant média sociaux</a></li>
+                  </ul>
+                </li>
+                <li><a href="page-service-v6.html"><span class="title"></span><span>Audio Visuel</span>
+                  <ul>
+                    <li><a href="page-service-single.html">Réalisateur</a></li>
+                    <li><a href="page-service-single.html">Montage audiovisuel</a></li>
+                    <li><a href="page-service-single.html">Ingénieur du son</a></li>
+                    <li><a href="page-service-single.html">Directeur de la photographie</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+              <ul>
+                <li><a href="page-contact.html">Contact</a></li>
+              </ul>
+            </li>
+            <li><span>Blog</span>
+            </li>
+            <!-- Only for Mobile View -->
+          </ul>
+        </nav>
+       <!-- Main Header Nav -->
+  <!-- <header class="header-nav nav-innerpage-style stricky main-menu at-home3 bdrb1"> -->
     <!-- Ace Responsive Menu -->
-    <nav class="posr"> 
+    <!-- <nav class="posr"> 
       <div class="container posr menu_bdrt1">
         <div class="row align-items-center justify-content-between">
           <div class="col-auto">
             <div class="d-flex align-items-center justify-content-between">
               <div class="logos mr20">
                 <a class="header-logo logo2" href="index.html"><img src="images/header-logo3.svg" alt="Header Logo"></a>
-              </div>
+              </div> -->
               <!-- Responsive Menu Structure-->
-              <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Home</span></a>
+              <!-- <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Home</span></a> -->
                   <!-- Level Two-->
-                  <ul>
+                  <!-- <ul>
                     <li><a href="index.html">Home V1</a></li>
                     <li><a href="index2.html">Home V2</a></li>
                     <li><a href="index3.html">Home V3</a></li>
@@ -72,8 +230,8 @@
                     <li><a href="index8.html">Home V8</a></li>
                     <li><a href="index9.html">Home V9</a></li>
                     <li><a href="index10.html">Home V10</a></li>
-                  </ul>
-                </li>
+                  </ul> -->
+                <!-- </li>
                 <li class="visible_list"> <a class="list-item" href="#"><span class="title">Browse Jobs</span></a>
                   <ul >
                     <li> <a href="#"><span class="title">Services</span></a>
@@ -94,8 +252,8 @@
                         <li><a href="page-project-v1.html">Project v1</a></li>
                         <li><a href="page-project-single.html">Project Single</a></li>
                       </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Job View</span></a>
+                    </li> -->
+                    <!-- <li> <a href="#"><span class="title">Job View</span></a>
                       <ul>
                         <li><a href="page-job-list-v1.html">Job list v1</a></li>
                         <li><a href="page-job-list-v2.html">Job list v2</a></li>
@@ -104,8 +262,8 @@
                       </ul>
                     </li>
                   </ul>
-                </li>
-                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Users</span></a>
+                </li> -->
+                <!-- <li class="visible_list"> <a class="list-item" href="#"><span class="title">Users</span></a>
                   <ul>
                     <li> <a href="#"><span class="title">Dashboard</span></a>
                       <ul>
@@ -124,8 +282,8 @@
                         <li><a href="page-dashboard-create-project.html">Create Project</a></li>
                         <li><a href="page-dashboard-profile.html">My Profile</a></li>
                       </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Employee</span></a>
+                    </li> -->
+                    <!-- <li> <a href="#"><span class="title">Employee</span></a>
                       <ul>
                         <li><a href="page-employee-v1.html">Employee V1</a></li>
                         <li><a href="page-employee-v2.html">Employee V2</a></li>
@@ -142,8 +300,8 @@
                     </li>
                     <li> <a href="page-become-seller.html"><span class="title">Become Seller</span></a></li>
                   </ul>
-                </li>
-                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Pages</span></a>
+                </li> -->
+                <!-- <li class="visible_list"> <a class="list-item" href="#"><span class="title">Pages</span></a>
                   <ul>
                     <li> <a href="#"><span class="title">About</span></a>
                       <ul>
@@ -166,8 +324,8 @@
                         <li><a href="page-shop-cart.html">Cart</a></li>
                         <li><a href="page-shop-checkout.html">Checkout</a></li>
                         <li><a href="page-shop-order.html">Order</a></li>
-                      </ul>
-                    </li>
+                      </ul> -->
+                    <!-- </li>
                     <li><a href="page-contact.html">Contact</a></li>
                     <li><a href="page-error.html">404</a></li>
                     <li><a href="page-faq.html">Faq</a></li>
@@ -183,8 +341,8 @@
                 <li> <a class="list-item" href="page-contact.html">Contact</a></li>
               </ul>
             </div>
-          </div>
-          <div class="col-auto">
+          </div> -->
+          <!-- <div class="col-auto">
             <div class="d-flex align-items-center">
               <a class="login-info" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><span class="flaticon-loupe"></span></a>
               <a class="login-info mx15-lg mx30" href="page-become-seller.html"><span class="d-none d-xl-inline-block">Become a</span> Seller</a>
@@ -195,9 +353,9 @@
         </div>
       </div>
     </nav>
-  </header>
+  </header> -->
   <!-- Search Modal -->
-  <div class="search-modal">
+  <!-- <div class="search-modal">
     <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -215,12 +373,12 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="hiddenbar-body-ovelay"></div>
+  <!-- <div class="hiddenbar-body-ovelay"></div> -->
 
   <!-- Mobile Nav  -->
-  <div id="page" class="mobilie_header_nav stylehome1">
+  <!-- <div id="page" class="mobilie_header_nav stylehome1">
     <div class="mobile-menu">
       <div class="header bgc-thm5 bdrb1">
         <div class="menu_and_widgets">
@@ -234,9 +392,9 @@
         </div>
         <div class="posr"><div class="mobile_menu_close_btn"><span class="far fa-times"></span></div></div>
       </div>
-    </div>
+    </div> -->
     <!-- /.mobile-menu -->
-    <nav id="menu" class="">
+    <!-- <nav id="menu" class="">
       <ul>
         <li><span>Home</span>
           <ul>
@@ -255,8 +413,8 @@
         <li><span>Browse Jobs</span>
           <ul>
             <li><span>Services</span>
-              <ul>
-                <li><a href="page-service-v1.html">Service v1</a></li>
+              <ul> -->
+                <!-- <li><a href="page-service-v1.html">Service v1</a></li>
                 <li><a href="page-service-v2.html">Service v2</a></li>
                 <li><a href="page-service-v3.html">Service v3</a></li>
                 <li><a href="page-service-v4.html">Service v4</a></li>
@@ -282,8 +440,8 @@
               </ul>
             </li>
           </ul>
-        </li>
-        <li><span>Users</span>
+        </li> -->
+        <!-- <li><span>Users</span>
           <ul>
             <li><span>Dashboard</span>
               <ul>
@@ -302,8 +460,8 @@
                 <li><a href="page-dashboard-create-project.html">Create Project</a></li>
                 <li><a href="page-dashboard-profile.html">My Profile</a></li>
               </ul>
-            </li>
-            <li><span>Employee</span>
+            </li> -->
+            <!-- <li><span>Employee</span>
               <ul>
                 <li><a href="page-employee-v1.html">Employee V1</a></li>
                 <li><a href="page-employee-v2.html">Employee V2</a></li>
@@ -320,8 +478,8 @@
             </li>
             <li><a href="page-become-seller.html">Become Seller</a></li>
           </ul>
-        </li>
-        <li><span>Pages</span>
+        </li> -->
+        <!-- <li><span>Pages</span>
           <ul>
             <li><span>About</span>
               <ul>
@@ -337,8 +495,8 @@
                 <li><a href="page-shop-checkout.html">Checkout</a></li>
                 <li><a href="page-shop-order.html">Order</a></li>
               </ul>
-            </li>
-            <li><a href="page-contact.html">Contact</a></li>
+            </li> -->
+            <!-- <li><a href="page-contact.html">Contact</a></li>
             <li><a href="page-error.html">404</a></li>
             <li><a href="page-faq.html">Faq</a></li>
             <li><a href="page-help.html">Help</a></li>
@@ -357,9 +515,9 @@
             <li><a href="page-blog-v3.html">List V3</a></li>
             <li><a href="page-blog-single.html">Single</a></li>
           </ul>
-        </li>
+        </li> -->
         <!-- Only for Mobile View -->
-      </ul>
+      <!-- </ul>
     </nav>
   </div>
 
@@ -385,9 +543,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Home Banner Style V1 -->
-    <section class="home3-hero">
+    <!-- <section class="home3-hero">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-xl-7">
@@ -487,10 +645,152 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+        <!-- Breadcumb Sections --> 
+        <section class="breadcumb-section pt-0">
+          <div class="cta-job-v1 cta-banner mx-auto maxw1700 pt120 pb120 bdrs16 position-relative overflow-hidden d-flex align-items-center mx20-lg px30-lg">
+            <img class="left-top-img wow zoomIn" src="images/vector-img/left-top.png" alt="">
+            <img class="right-bottom-img wow zoomIn" src="images/vector-img/right-bottom.png" alt="">
+            <img class="service-v1-vector at-job bounce-x d-none d-xl-block" src="images/vector-img/vector-service-v1.png" alt="">
+            <div class="container">
+              <div class="row wow fadeInUp">
+                <div class="col-xl-7">
+                  <div class="position-relative">
+                    <h2>Bienvenue sur 5Colos</h2>
+                    <p class="text">Vous avez un project? Trouvez les meilleurs services au meilleur prix en un clic.</p>
+                  </div>
+                  <!-- <div class="advance-search-tab bgc-white p10 bdrs4 mt30">
+                    <div class="row">
+                      <div class="col-md-5 col-lg-6 col-xl-6">
+                        <div class="advance-search-field bdrr1 bdrn-sm">
+                          <form class="form-search position-relative">
+                            <div class="box-search bb1-sm">
+                              <span class="icon far fa-magnifying-glass"></span>
+                              <input class="form-control" type="text" name="search" placeholder="What are you looking for?">
+                              <div class="search-suggestions">
+                                <h6 class="fz14 ml30 mt25 mb-3">Popular Search</h6>
+                                <div class="box-suggestions">
+                                  <ul class="px-0 m-0 pb-4">
+                                    <li>
+                                      <div class="info-product">
+                                        <div class="item_title">mobile app development</div>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="info-product">
+                                        <div class="item_title">mobile app builder</div>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="info-product">
+                                        <div class="item_title">mobile legends</div>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="info-product">
+                                        <div class="item_title">mobile app ui ux design</div>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="info-product">
+                                        <div class="item_title">mobile game app development</div>
+                                      </div>
+                                    </li>
+                                    <li>
+                                      <div class="info-product">
+                                        <div class="item_title">mobile app design</div>
+                                      </div>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="col-md-4 col-lg-4 col-xl-3">
+                        <div class="bselect-style1">
+                          <select class="selectpicker" data-width="100%">
+                            <option>City, state, or zip</option>
+                            <option data-tokens="Graphics&Design">Graphics & Design</option>
+                            <option data-tokens="DigitlMarketing">Digital Marketing</option>
+                            <option data-tokens="Writing&Translation">Writing & Translation</option>
+                            <option data-tokens="Video&Animation">Video & Animation</option>
+                            <option data-tokens="Music&Audio">Music & Audio</option>
+                            <option data-tokens="Programming&Tech">Programming & Tech</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-lg-2 col-xl-3">
+                        <div class="text-center text-xl-start">
+                          <a class="ud-btn btn-thm2 w-100 vam" href="#">Search</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+    <!-- Need something --> 
+    <section class="our-features pb90">
+      <div class="container wow fadeInUp">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="main-title text-center">
+              <p style="font-size: 1.5rem;">Pour les entreprises</p>
+              <h2>5Colos comment ça marche?</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="iconbox-style1 border-less p-0">
+              <div class="icon before-none"><span class="flaticon-cv"></span></div>
+              <div class="details">
+                <h4 class="title mt10 mb-3">1. Choix du service</h4>
+                <p class="text">Vous pouvez le faire en choisissant parmi nos services populaires</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="iconbox-style1 border-less p-0">
+              <div class="icon before-none"><span class="flaticon-web-design"></span></div>
+              <div class="details">
+                <h4 class="title mt10 mb-3">2. Choix du sous-service</h4>
+                <p class="text">Après avoir choisi le service qui vous intéresse, <br class="d-none d-xxl-block"> choisissez le sous-service qui vous convient.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="iconbox-style1 border-less p-0">
+              <div class="icon before-none"><span class="flaticon-secure"></span></div>
+              <div class="details">
+                <h4 class="title mt10 mb-3">3. Choix du package</h4>
+                <p class="text">Puis choisissee le plan de paiement<br class="d-none d-xxl-block"> qui vous convient</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="iconbox-style1 border-less p-0">
+              <div class="icon before-none"><span class="flaticon-customer-service"></span></div>
+              <div class="details">
+                <h4 class="title mt10 mb-3">4. Commande transférée aux meilleurs freelancers</h4>
+                <p class="text">Une fois votre commande reçue elle sera traitée, par les meilleurs freelancers <br class="d-none d-xxl-block"> et livrée dans les temps.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Popular Services -->
-    <section class="pt200 pb-0 pb30-md">
+    <!-- <section class="pt200 pb-0 pb30-md">
       <div class="container">
         <div class="row align-items-center wow fadeInUp">
           <div class="col-lg-9 mx-auto">
@@ -629,8 +929,8 @@
                               <span class="position-relative mr10">
                                 <img class="rounded-circle" src="images/team/fl-s-4.png" alt="Freelancer Photo">
                                 <span class="online-badges"></span>
-                              </span>
-                              <span class="fz14">Wanda Runo</span>
+                              </span> -->
+                              <!-- <span class="fz14">Wanda Runo</span>
                             </a>
                             <div class="budget">
                               <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
@@ -1048,8 +1348,8 @@
                             </a>
                             <div class="budget">
                               <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
-                            </div>
-                          </div>
+                            </div> -->
+                          <!-- </div>
                         </div>
                       </div>
                     </div>
@@ -1385,8 +1685,8 @@
                         <div class="list-thumb">
                           <img class="w-100" src="images/listings/g-2.jpg" alt="">
                           <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
-                        </div>
-                        <div class="list-content">
+                        </div> -->
+                        <!-- <div class="list-content">
                           <p class="list-text body-color fz14 mb-1">Art & Illustration</p>
                           <h5 class="list-title"><a href="page-services-single.html">I will create modern flat design illustration</a></h5>
                           <div class="review-meta d-flex align-items-center">
@@ -1561,10 +1861,15 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Talent by category -->
-    <section class="pb40-md pb90">
+    <!-- n2" href="page-service-single.html">All Categories<i class="fal fa-arrow-right-long"></i></a>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="row d-none d-lg-flex wow fadeInUp">
+          <div class="col-sm-<section class="pb40-md pb90">
       <div class="container">
         <div class="row align-items-center wow fadeInUp" data-wow-delay="300ms">
           <div class="col-lg-9">
@@ -1575,12 +1880,7 @@
           </div>
           <div class="col-lg-3">
             <div class="text-start text-lg-end mb-4 mb-lg-0">
-              <a class="ud-btn2" href="page-service-single.html">All Categories<i class="fal fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="row d-none d-lg-flex wow fadeInUp">
-          <div class="col-sm-6 col-lg-4 col-xl-3">
+              <a class="ud-bt6 col-lg-4 col-xl-3">
             <div class="iconbox-style1 bdr1 d-flex align-items-start mb30">
               <div class="icon flex-shrink-0"><span class="flaticon-developer"></span></div>
               <div class="details ml40">
@@ -1597,8 +1897,8 @@
                 <h5 class="title">Design & <br class="d-none d-lg-block"> Creative</h5>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
+          </div> -->
+          <!-- <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="iconbox-style1 bdr1 d-flex align-items-start mb30">
               <div class="icon flex-shrink-0"><span class="flaticon-digital-marketing"></span></div>
               <div class="details ml40">
@@ -1624,8 +1924,8 @@
                 <h5 class="title">Music & <br class="d-none d-lg-block"> Audio</h5>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
+          </div> -->
+          <!-- <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="iconbox-style1 bdr1 d-flex align-items-start mb30">
               <div class="icon flex-shrink-0"><span class="flaticon-video-file"></span></div>
               <div class="details ml40">
@@ -1653,30 +1953,8 @@
             </div>
           </div>
         </div>
-        <div class="row d-block d-lg-none">
-          <div class="col-lg-12">
-            <div class="slider-outer-dib navi_pagi_top_right slider-5-grid owl-carousel owl-theme wow fadeInUp">
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-developer"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Development & IT</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-web-design-1"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Design & Creative</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
+        ; -->
+              <!-- <div class="item">
                 <div class="iconbox-style1">
                   <div class="icon"><span class="flaticon-digital-marketing"></span></div>
                   <div class="details mt20">
@@ -1695,8 +1973,8 @@
                     <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
                   </div>
                 </div>
-              </div>
-              <div class="item">
+              </div> -->
+              <!-- <div class="item">
                 <div class="iconbox-style1">
                   <div class="icon"><span class="flaticon-microphone"></span></div>
                   <div class="details mt20">
@@ -1715,8 +1993,8 @@
                     <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
                   </div>
                 </div>
-              </div>
-              <div class="item">
+              </div> -->
+              <!-- <div class="item">
                 <div class="iconbox-style1">
                   <div class="icon"><span class="flaticon-ruler"></span></div>
                   <div class="details mt20">
@@ -1740,10 +2018,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- About Us -->
-    <section class="pt0 pb40-md">
+    <!-- <section class="pt0 pb40-md">
       <div class="cta-banner bgc-light-yellow mx-auto maxw1700 pt110 pb80 pb30-md bdrs12 position-relative">
         <div class="container">
           <div class="row align-items-start align-items-xl-center">
@@ -1768,8 +2046,8 @@
                       <h6 class="title mb-0">Ralph Edwards</h6>
                       <p class="fz14 mb-0">Designer</p>
                     </div>
-                  </div>
-                  <div class="thumb d-flex align-items-center mb20">
+                  </div> -->
+                  <!-- <div class="thumb d-flex align-items-center mb20">
                     <div class="flex-shrink-0">
                       <img class="wa" src="images/team/ea-3.png" alt="">
                     </div>
@@ -1834,10 +2112,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Our Partners --> 
-    <section class="our-partners pt0">
+    <!-- <section class="our-partners pt0">
       <div class="container">
         <div class="row wow fadeInUp">
           <div class="col-lg-12">
@@ -1867,10 +2145,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- CTA Banner -->
-    <section class="p-0">
+    <!-- <section class="p-0">
       <div class="cta-banner3 mx-auto maxw1600 pt120 pt60-lg pb90 pb60-lg position-relative overflow-hidden">
         <div class="container">
           <div class="row">
@@ -1908,10 +2186,10 @@
         </div>
         <img class="cta-banner3-img wow fadeInLeft" src="images/about/about-5.jpg" alt="" data-wow-delay="300ms">
       </div>
-    </section>
+    </section> -->
 
     <!-- Customers Testimonials -->
-    <section>
+    <!-- <section>
       <div class="container">
         <div class="row wow fadeInUp">
           <div class="col-lg-12">
@@ -1954,10 +2232,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- CTA Banner -->
-    <section class="cta-banner-about2 mx-auto maxw1700 position-relative pt60-lg pb60-lg">
+    <!-- <section class="cta-banner-about2 mx-auto maxw1700 position-relative pt60-lg pb60-lg">
       <img class="cta-about2-img bdrs4 d-none d-xl-block" src="images/about/about-9.jpg" alt="">
       <div class="container">
         <div class="row">
@@ -1992,10 +2270,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Faq Area -->
-    <section class="our-faq pb90">
+    <!-- <section class="our-faq pb90">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
@@ -2056,10 +2334,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Our CTA --> 
-    <section class="our-cta cta-home3-last pt90 pb90 pt60-md pb60-md mt100 mt0-lg">
+    <!-- <section class="our-cta cta-home3-last pt90 pb90 pt60-md pb60-md mt100 mt0-lg">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-md-6 col-lg-7 col-xl-5 wow fadeInLeft">
@@ -2076,10 +2354,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Our Footer --> 
-    <section class="footer-style1 pt25 pb-0">
+    <!-- <section class="footer-style1 pt25 pb-0">
       <div class="container">
         <div class="row bb-white-light pb10 mb60">
           <div class="col-md-7">
@@ -2171,8 +2449,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="container white-bdrt1 py-4">
+      </div> -->
+      <!-- <div class="container white-bdrt1 py-4">
         <div class="row align-items-center">
           <div class="col-md-6">
             <div class="text-center text-lg-start">
@@ -2206,6 +2484,327 @@
     </section>
     <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
   </div>
+</div> -->
+<!-- Wrapper End --> 
+<section id="cat" class="pb90 pb30-md bgc-thm3">
+  <div class="container">
+    <div class="row align-items-center wow fadeInUp">
+      <div class="col-lg-9">
+        <div class="main-title">
+          <h2>Postez une offre par catégories</h2>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="text-start text-lg-end mb-4 mb-lg-2">
+          <a class="ud-btn2" href="page-service-all.html">Toutes les Catégories<i class="fal fa-arrow-right-long"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="slider-outer-dib vam_nav_style dots_none slider-4-grid2 owl-carousel owl-theme wow fadeInUp" data-wow-delay="300ms">
+          <div class="item">
+            <div class="listing-style1">
+              <div class="list-thumb">
+                <img class="w-100" src="images/listings/g-1.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <div class="list-content">
+            <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
+                <h5 class="list-title"><a href="page-service-v6.html">Infographie</a></h5>
+            <!--<div class="review-meta d-flex align-items-center">
+                  <i class="fas fa-star fz10 review-color me-2"></i>
+                  <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                </div>
+                <hr class="my-2">
+                <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                  <a class="d-flex" href="#">
+                    <span class="position-relative mr10">
+                      <img class="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo">
+                      <span class="online-badges"></span>
+                    </span>
+                    <span class="fz14">Wanda Runo</span>
+                  </a>
+                  <div class="budget">
+                    <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="listing-style1">
+              <div class="list-thumb">
+                <img class="w-100" src="images/listings/g-2.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <div class="list-content">
+                 <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
+                <h5 class="list-title"><a href="page-service-v6.html">Médias Sociaux</a></h5>
+            <!--<div class="review-meta d-flex align-items-center">
+                  <i class="fas fa-star fz10 review-color me-2"></i>
+                  <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                </div>
+                <hr class="my-2">
+                <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                  <a class="d-flex" href="#">
+                    <span class="position-relative mr10">
+                      <img class="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo">
+                      <span class="online-badges"></span>
+                    </span>
+                    <span class="fz14">Wanda Runo</span>
+                  </a>
+                  <div class="budget">
+                    <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="listing-style1">
+              <div class="list-thumb">
+                <img class="w-100" src="images/listings/g-3.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <div class="list-content">
+                <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
+                <h5 class="list-title"><a href="page-service-v6.html">Développement Web</a></h5>
+            <!--<div class="review-meta d-flex align-items-center">
+                  <i class="fas fa-star fz10 review-color me-2"></i>
+                  <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                </div>
+                <hr class="my-2">
+                <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                  <a class="d-flex" href="#">
+                    <span class="position-relative mr10">
+                      <img class="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo">
+                      <span class="online-badges"></span>
+                    </span>
+                    <span class="fz14">Wanda Runo</span>
+                  </a>
+                  <div class="budget">
+                    <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="listing-style1">
+              <div class="list-thumb">
+                <img class="w-100" src="images/listings/g-4.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <div class="list-content">
+                <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
+                <h5 class="list-title"><a href="page-service-v6.html">Audio visuel</a></h5>
+            <!--<div class="review-meta d-flex align-items-center">
+                  <i class="fas fa-star fz10 review-color me-2"></i>
+                  <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                </div>
+                <hr class="my-2">
+                <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                  <a class="d-flex" href="#">
+                    <span class="position-relative mr10">
+                      <img class="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo">
+                      <span class="online-badges"></span>
+                    </span>
+                    <span class="fz14">Wanda Runo</span>
+                  </a>
+                  <div class="budget">
+                    <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="listing-style1">
+              <div class="list-thumb">
+                <img class="w-100" src="images/listings/g-5.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <div class="list-content">
+                 <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
+                <h5 class="list-title"><a href="page-service-v6.html">Médias Sociaux</a></h5>
+            <!--<div class="review-meta d-flex align-items-center">
+                  <i class="fas fa-star fz10 review-color me-2"></i>
+                  <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                </div>
+                <hr class="my-2">
+                <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                  <a class="d-flex" href="#">
+                    <span class="position-relative mr10">
+                      <img class="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo">
+                      <span class="online-badges"></span>
+                    </span>
+                    <span class="fz14">Wanda Runo</span>
+                  </a>
+                  <div class="budget">
+                    <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="listing-style1">
+              <div class="list-thumb">
+                <img class="w-100" src="images/listings/g-6.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <div class="list-content">
+                 <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
+                <h5 class="list-title"><a href="page-service-v6.html">Infographie</a></h5>
+            <!--<div class="review-meta d-flex align-items-center">
+                  <i class="fas fa-star fz10 review-color me-2"></i>
+                  <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                </div>
+                <hr class="my-2">
+                <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                  <a class="d-flex" href="#">
+                    <span class="position-relative mr10">
+                      <img class="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo">
+                      <span class="online-badges"></span>
+                    </span>
+                    <span class="fz14">Wanda Runo</span>
+                  </a>
+                  <div class="budget">
+                    <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="listing-style1">
+              <div class="list-thumb">
+                <img class="w-100" src="images/listings/g-7.jpg" alt="">
+                <a href="#" class="listing-fav fz12"><span class="far fa-heart"></span></a>
+              </div>
+              <div class="list-content">
+                 <!--<p class="list-text body-color fz14 mb-1">Infographie</p>-->
+                <h5 class="list-title"><a href="page-service-v6.html">Audio Visuel</a></h5>
+            <!--<div class="review-meta d-flex align-items-center">
+                  <i class="fas fa-star fz10 review-color me-2"></i>
+                  <p class="mb-0 body-color fz14"><span class="dark-color me-2">4.82</span>94 reviews</p>
+                </div>
+                <hr class="my-2">
+                <div class="list-meta d-flex justify-content-between align-items-center mt15">
+                  <a class="d-flex" href="#">
+                    <span class="position-relative mr10">
+                      <img class="rounded-circle wa" src="images/team/fl-s-1.png" alt="Freelancer Photo">
+                      <span class="online-badges"></span>
+                    </span>
+                    <span class="fz14">Wanda Runo</span>
+                  </a>
+                  <div class="budget">
+                    <p class="mb-0 body-color">Starting at<span class="fz17 fw500 dark-color ms-1">$983</span></p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our CTA --> 
+<!-- <section class="our-cta cta-home3-last pt90 pb90 pt60-md pb60-md mt100 mt0-lg">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-md-6 col-lg-7 col-xl-5 wow fadeInLeft">
+        <div class="cta-style3">
+          <h2 class="cta-title">Find the talent needed to get your business growing.</h2>
+          <p class="cta-text">Advertise your jobs to millions of monthly users and search 15.8 million CVs</p>
+          <a href="page-contact.html" class="ud-btn btn-thm2">Get Started <i class="fal fa-arrow-right-long"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-5 col-xl-5 position-relative wow zoomIn">
+        <div class="cta-img">
+          <img class="w-100" src="images/about/about-5.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- Our Footer --> 
+<section class="footer-style1 pt25 pb-0">
+<div class="container">
+<div class="row bb-white-light pb10 mb60">
+  <div class="col-md-7">
+    <div class="d-block text-center text-md-start justify-content-center justify-content-md-start d-md-flex align-items-center mb-3 mb-md-0">
+      <a class="fz17 fw500 text-white mr15-md mr30" href="#">Termes et conditions</a>
+      <a class="fz17 fw500 text-white mr15-md mr30" href="#">Politique de confidentialité</a>
+      <a class="fz17 fw500 text-white" href="#">Site Map</a>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="social-widget text-center text-md-end">
+      <div class="social-style1">
+        <a class="text-white me-2 fw500 fz17" href="#">Nous suivre</a>
+        <a href="#"><i class="fab fa-facebook-f list-inline-item"></i></a>
+        <a href="#"><i class="fab fa-twitter list-inline-item"></i></a>
+        <a href="#"><i class="fab fa-instagram list-inline-item"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in list-inline-item"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6 col-lg-3">
+    <div class="col-sm-6 col-lg-3">
+      <div class="link-style1 mb-4 mb-sm-5">
+        <h5 class="text-white mb15">Categories</h5>
+        <ul class="ps-0">
+          <li><a href="page-service-v6.html">Infographie</a></li>
+          <li><a href="page-service-v6.html">Développement web</a></li>
+          <li><a href="page-service-v6.html">Médias sociaux</a></li>
+          <li><a href="page-service-v6.html">Audio visuel</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-lg-3">
+    <div class="link-style1 mb-4 mb-sm-5">
+      <h5 class="text-white mb15">Support</h5>
+      <ul class="ps-0">
+        <li><a href="#">Support et aide</a></li>
+        <li><a href="#">Confiance et sécurité</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-6 col-lg-3">
+    <div class="footer-widget">
+      <div class="footer-widget mb-4 mb-sm-5">
+        <div class="mailchimp-widget">
+          <h5 class="title text-white mb20">Souscrire</h5>
+          <div class="mailchimp-style1">
+            <input type="email" class="form-control" placeholder="Adresse email">
+            <button type="submit">Envoyer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container white-bdrt1 py-4">
+<div class="row align-items-center">
+  <div class="col-md-6">
+    <div class="text-center text-lg-start">
+      <p class="copyright-text mb-2 mb-md-0 text-white-light ff-heading">© Copyright 2023, Propriété exclusive de Ogooué Labs. Produit par Ecole 241</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
+</div>
 </div>
 <!-- Wrapper End --> 
 <script src="js/jquery-3.6.4.min.js"></script>
