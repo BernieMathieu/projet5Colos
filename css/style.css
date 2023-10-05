@@ -10890,7 +10890,7 @@ input:focus-visible {
 }
 
 .text-white {
-  color: #ffffff;
+  color:#000000; 
 }
 
 .bgc-white {
@@ -11474,6 +11474,10 @@ input:focus-visible {
   color: var(--headings-color);
   font-family: var(--title-font-family);
   font-weight: 400;
+}
+
+.whiteclr{
+  color: #000000;
 }
 
 .default-box-shadow1 {
