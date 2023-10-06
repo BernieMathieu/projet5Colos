@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="fr">
 
-<!-- Mirrored from creativelayers.net/themes/freeio-html/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Sep 2023 16:25:26 GMT -->
+<!-- Mirrored from creativelayers.net/themes/freeio-html/page-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Sep 2023 16:25:26 GMT -->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -514,8 +514,8 @@
           </div>
           <!-- <div class="col-auto px-0">
             <div class="d-flex align-items-center">
-             Responsive Menu Structure
-              <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+               Responsive Menu Structure
+              <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal" style="background-color: var(--headings-color);">
                 <li class="visible_list"> <a class="list-item" href="index.html"><span class="title">Accueil</span></a>
                 </li>
                 <li class="visible_list"> <a class="list-item" href="page-service-all.html"><span class="title">Catégorie de services</span></a>
@@ -565,8 +565,8 @@
               </ul><a class="ud-btn btn-white add-joining" href="choix_Aron.html">S'inscrire</a>
             </div>
           </div>
-        </div> -->
-      </div>
+        </div>
+      </div> -->
     </nav>
   </header>
   <!-- Search Modal -->
@@ -660,50 +660,60 @@
   </div>
 
   <div class="body_content">
-    <!-- Our LogIn Area -->
-    <section class="our-login" style="background:  linear-gradient(to bottom, #9effc0, #4fbf8a, #00865a);
-    color: #fff;;">
+    <!-- Our SignUp Area -->
+    <section class="our-register" style="background: linear-gradient(to bottom, #9effc0, #4fbf8a, #00865a);
+    color: #ffffff;">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms">
-            <div class="main-title text-center" style="color: #fff;">
-              <!-- <h2 class="title" style="color: #fff;">S'identifier</h2> -->
-              <!-- <p class="paragraph" style="color: #fff;">Connectez-vous maintenant sur 5colos et gagnez satisfaction avec la variété de nos services attrayants de toutes catégories.</p> -->
-            </div>
+        <div class="row" >
+          <div class="col-lg-6 m-auto wow fadeInUp" data-wow-delay="300ms" >
+            <!-- <div class="main-title text-center">
+              <h2 class="title" style="color: #fff;">Client</h2>
+              <p class="paragraph" style="color: #fff;">Inscrivez-vous maintenant sur 5colos et gagnez satisfaction avec la variété de nos services attrayants de toutes catégories. </p>
+            </div> -->
           </div>
         </div>
         <div class="row wow fadeInRight" data-wow-delay="300ms">
           <div class="col-xl-6 mx-auto">
-            <div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12">
+            <div class="log-reg-form search-modal form-style1 bgc-white p50 p30-sm default-box-shadow1 bdrs12" >
               <div class="mb30">
-                <h2 class="title" style="text-align: center;">S'identifier</h2>
-                <h4>Nous sommes heureux de vous revoir!</h4>
-                <p class="text">Vous n’avez pas de compte? <a href="page-register-client.html" class="text-thm">S'inscrire!</a></p>
+                <h3 aligne="center" style="text-align: center;">S'inscrire en tant que client</h3>
+                <p class="text mt20">Vous avez déjà un compte? <a href="page-login-client.html" class="text-thm">S'identifier!</a></p>
               </div>
-              <div class="mb20">
-                <label class="form-label fw600 dark-color">Adresse e-mail</label>
+              <div class="mb25" style="display: flex; gap: 20px;">
+                <div>
+                  <label class="form-label fw500 dark-color">Nom(s)</label>
+                  <input type="text" class="form-control" placeholder="NZE">
+                </div>
+                <div>
+                  <label class="form-label fw500 dark-color">Prénom(s)</label>
+                  <input type="text" class="form-control" placeholder="Mathieu">
+              </div>
+              </div>
+              <!-- <div class="mb25">
+                <label class="form-label fw500 dark-color">Nom de famille</label>
+                <input type="text" class="form-control" placeholder="ali">
+              </div>
+              <div class="mb25">
+                <label class="form-label fw500 dark-color">Prénom</label>
+                <input type="text" class="form-control" placeholder="alitf">
+              </div> -->
+              <div class="mb25">
+                <label class="form-label fw500 dark-color">Adresse e-mail</label>
                 <input type="email" class="form-control" placeholder="alitfn58@gmail.com">
               </div>
               <div class="mb15">
-                <label class="form-label fw600 dark-color">Mot de passe</label>
-                <input type="text" class="form-control" placeholder="*******">
-              </div>
-              <div class="checkbox-style1 d-block d-sm-flex align-items-center justify-content-between mb20">
-                <label class="custom_checkbox fz14 ff-heading">Souvenez-vous de moi</label>
-                  <input type="checkbox" checked="checked">
-                  <span class="checkmark"></span>
-                </label>
-                <a class="fz14 ff-heading" href="#">Vous avez perdu votre mot de passe ?</a>
+                <label class="form-label fw500 dark-color">Pseudo</label>
+                <input type="text" class="form-control" placeholder="lame tranchante">
               </div>
               <div class="d-grid mb20">
-                <button class="ud-btn btn-thm" type="button"><a href="index3.html" style="color: white;">Soumettre</a><i class="fal fa-arrow-right-long"></i></button>
+                <button class="ud-btn btn-thm default-box-shadow2" type="button"><a href="page-register-client2.html" style="color: white;">Suivant </a><i class="fal fa-arrow-right-long"></i></button>
               </div>
-              <div class="hr_content mb20"><hr><span class="hr_top_text">Ou</span></div>
-              <div class="d-md-flex justify-content-between">
+              <!-- <div class="hr_content mb20"><hr><span class="hr_top_text">Ou</span></div> -->
+              <!-- <div class="d-md-flex justify-content-between">
                 <button class="ud-btn btn-fb fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-facebook-f pr10"></i> Continue Facebook</button>
                 <button class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button"><i class="fab fa-google"></i> Continue Google</button>
                 <button class="ud-btn btn-apple fz14 fw400" type="button"><i class="fab fa-apple"></i> Continue Apple</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -711,7 +721,7 @@
     </section>
 
     <!-- Our Footer --> 
-    <!-- <section class="footer-style1 pt25 pb-0">
+    <section class="footer-style1 pt25 pb-0">
       <div class="container">
         <div class="row bb-white-light pb10 mb60">
           <div class="col-md-7">
@@ -783,7 +793,7 @@
     </section>
     <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>
   </div>
-</div> -->
+</div>
 <!-- Wrapper End --> 
 <script src="js/jquery-3.6.4.min.js"></script>
 <script src="js/jquery-migrate-3.0.0.min.js"></script>
@@ -798,5 +808,5 @@
 <script src="js/script.js"></script>
 </body>
 
-<!-- Mirrored from creativelayers.net/themes/freeio-html/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Sep 2023 16:25:26 GMT -->
+<!-- Mirrored from creativelayers.net/themes/freeio-html/page-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Sep 2023 16:25:26 GMT -->
 </html>
